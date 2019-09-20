@@ -4,11 +4,13 @@ A simple game of flash cards where the user tries to guess the generic drug name
 
 ## Technologies
 
-HTML, CSS(Flexbox), Javascript.
+- HTML 
+- CSS(Flexbox)
+- Javascript
 
 ### Installation Instructions
 
-Users will need to download all the files (index.html, styles.css, app.js, open_bottle.jpeg) in the repository and have them saved in the same folder in order to play this game. To open the game, open the index.html file in a web browser.
+Users will need to download all the files (```index.html```, ```styles.css```, ```app.js```& ```open_bottle.jpeg```) in the repository and have them saved in the same folder in order to play this game. To open the game, open the index.html file in a web browser.
 
 ### Problems
 
@@ -17,3 +19,8 @@ As I was writing the game, I used the ```console.log()``` function to see if wha
 ### Future Improvements/Additions/Modifications
 
 Different difficulty levels, optimize the screen for mobile device use, more questions and randomized answer choices, modals at the start and end of the game, and a different version of the game where the user is matching words and/or phrases in a different language to their English translations.
+
+### Wireframe
+
+![Wireframe Sketch](/Users/jamesopara/Desktop/dev/project-1/20190920_003647.jpg)
+Format: ![Alt Text](Wireframe Sketch)
