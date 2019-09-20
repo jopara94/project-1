@@ -9,6 +9,7 @@ HTML, CSS(Flexbox), Javascript.
 ### Features
 
 Tracking score
+Cards changing names and colors via DOM manipulation
 
 ### Installation Instructions
 
