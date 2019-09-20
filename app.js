@@ -1,5 +1,5 @@
 //Cards
-let brandCards = ["Tylenol", "Advil", "Cresemba", "Robitussin", "Benadryl", "Mucinex"];
+let brandCards = ["Tylenol", "Advil", "Cresemba", "Robitussin", "Benadryl", "Mucinex", "You Win!"];
 const genCards1 = "Acetaminophen";
 const genCards2 = "Ibuprofen";
 const genCards3 = "Isavuconazonium";
@@ -7,7 +7,7 @@ const genCards4 = "Dextromethorphan";
 const genCards5 = "Diphenhydramine";
 const genCards6 = "Guaifenesin";
 
-
+//Setting the cards
 document.getElementById("questionBox").innerText = brandCards[0];
 document.getElementById("a1").innerText = genCards1;
 document.getElementById("a2").innerText = genCards2;
@@ -20,9 +20,8 @@ document.getElementById("a6").innerText = genCards6;
 let score = 0;
 document.querySelector("#showScore").innerText = `${score} Points`;
 
-//Click
 
-//if clickedCard = the proper questionCard, background color green. If wrong, red for 1 second, then back to white.
+//if user clicks the correct answer, the card turns green and disappears. If wrong, it stays white.
 
 //Clicking the cards
 function clickACard (evt) {
@@ -81,13 +80,13 @@ if (evt.target.id === "a6" && brandCards[0]==="Mucinex") {
 
 function colorChange(e) {
     e.target.style.backgroundColor = "yellow";
-    setTimeout( function () {e.target.style.backgroundColor = "white"}, 400);
+    setTimeout( function () {e.target.style.backgroundColor = "white"}, 200);
 };
-
-//Winning the game
-if (score === 6) {
-    //You Win modal pops up but alert for now
-    alert("You Win!");
-}
-document.getElementById("choices").addEventListener("mouseover", colorChange);
+//Changing card colors
+document.getElementById("a1").addEventListener("mouseover", colorChange);
+document.getElementById("a2").addEventListener("mouseover", colorChange);
+document.getElementById("a3").addEventListener("mouseover", colorChange);
+document.getElementById("a4").addEventListener("mouseover", colorChange);
+document.getElementById("a5").addEventListener("mouseover", colorChange);
+document.getElementById("a6").addEventListener("mouseover", colorChange);
 document.getElementById("choices").addEventListener("click", clickACard); 
