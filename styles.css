@@ -11,10 +11,12 @@ h1 {
     text-align: center;
     font-size: 30px;
     color: white;
+    font-family: 'Squada One', cursive;
 }
 h3{
     text-align: center;
     color: white;
+    font-family: 'Squada One', cursive;
 }
 #questionBox {
     height: 150px;
@@ -22,7 +24,8 @@ h3{
     border: solid black 5px;
     background-color: white;
     text-align: center;
-    line-height: 150px;   
+    line-height: 150px;
+    font-family: 'Beth Ellen', cursive;   
 }
 .answer {
     height: 150px;
@@ -33,12 +36,14 @@ h3{
     line-height: 150px;
     background-color: white;
     margin: 10px 0 10px 0;
+    font-family: 'Beth Ellen', cursive;
 }
 h2 {
     display: block;
     text-align: center;
     color: white;
     margin: 0 auto;
+    font-family: 'Squada One', cursive;
 }
 #top {
     margin: 0 auto;

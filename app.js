@@ -1,5 +1,6 @@
-//Cards
+//Brand name drugs
 let brandCards = ["Tylenol", "Advil", "Cresemba", "Robitussin", "Benadryl", "Mucinex", "You Win!"];
+//Generic name drugs
 const genCards1 = "Acetaminophen";
 const genCards2 = "Ibuprofen";
 const genCards3 = "Isavuconazonium";
@@ -7,7 +8,7 @@ const genCards4 = "Dextromethorphan";
 const genCards5 = "Diphenhydramine";
 const genCards6 = "Guaifenesin";
 
-//Setting the cards
+//Setting the cards in their divs
 document.getElementById("questionBox").innerText = brandCards[0];
 document.getElementById("a1").innerText = genCards1;
 document.getElementById("a2").innerText = genCards2;
@@ -18,7 +19,7 @@ document.getElementById("a6").innerText = genCards6;
 
 //Score
 let score = 0;
-document.querySelector("#showScore").innerText = `${score} Points`;
+document.querySelector("#showScore").innerText = `${score} Points`;//Showing initial score
 
 
 //if user clicks the correct answer, the card turns green and disappears. If wrong, it stays white.
@@ -79,7 +80,7 @@ if (evt.target.id === "a6" && brandCards[0]==="Mucinex") {
     document.querySelector("#text1").style.display = "none"
     document.querySelector("#text2").style.display = "none"}, 500);};
 };
-
+//As the user mouses over the card choices, the cards turn yellow, then back to white
 function colorChange(e) {
     e.target.style.backgroundColor = "yellow";
     setTimeout( function () {e.target.style.backgroundColor = "white"}, 200);
