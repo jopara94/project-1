@@ -6,11 +6,6 @@ A simple game of flash cards where the user tries to guess the generic drug name
 
 HTML, CSS(Flexbox), Javascript.
 
-### Features
-
-Tracking score
-Cards changing names and colors via DOM manipulation
-
 ### Installation Instructions
 
 Users will need to download all the files (index.html, styles.css, app.js, open_bottle.jpeg) in the repository and have them saved in the same folder in order to play this game. To open the game, open the index.html file in a web browser.
