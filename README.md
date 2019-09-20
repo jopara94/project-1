@@ -19,8 +19,3 @@ As I was writing the game, I used the ```console.log()``` function to see if wha
 ### Future Improvements/Additions/Modifications
 
 Different difficulty levels, optimize the screen for mobile device use, more questions and randomized answer choices, modals at the start and end of the game, and a different version of the game where the user is matching words and/or phrases in a different language to their English translations.
-
-### Wireframe
-
-![Wireframe Sketch](/Users/jamesopara/Desktop/dev/project-1/20190920_003647.jpg)
-Format: ![Alt Text](Wireframe Sketch)
