@@ -75,7 +75,9 @@ if (evt.target.id === "a6" && brandCards[0]==="Mucinex") {
     setTimeout( function () {document.getElementById("questionBox").innerText = brandCards[0];
     score += 1;
     document.querySelector("#showScore").innerText = `${score} Points`;
-    document.querySelector("#a6").style.display = "none"}, 500);};
+    document.querySelector("#a6").style.display = "none";
+    document.querySelector("#text1").style.display = "none"
+    document.querySelector("#text2").style.display = "none"}, 500);};
 };
 
 function colorChange(e) {
