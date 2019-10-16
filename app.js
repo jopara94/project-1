@@ -8,6 +8,7 @@ const genCards4 = "Dextromethorphan";
 const genCards5 = "Diphenhydramine";
 const genCards6 = "Guaifenesin";
 
+// I would make this into a loop, and the genCards into an array! see the repeated pattern?
 //Setting the cards in their divs
 document.getElementById("questionBox").innerText = brandCards[0];
 document.getElementById("a1").innerText = genCards1;
@@ -51,6 +52,8 @@ if (evt.target.id === "a3" && brandCards[0]==="Cresemba") {
     document.querySelector("#showScore").innerText = `${score} Points`;
     document.querySelector("#a3").style.display = "none"}, 500);
 }; 
+
+// Look at the repeated code in these!! You could definitely make it into a function!
 
 if (evt.target.id === "a4" && brandCards[0]==="Robitussin") {
     evt.target.style.backgroundColor = "green";
