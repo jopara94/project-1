@@ -9,7 +9,7 @@ main {
 }
 h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 30pƒx;
     color: white;
     font-family: 'Squada One', cursive;
 }
@@ -18,6 +18,8 @@ h3{
     color: white;
     font-family: 'Squada One', cursive;
 }
+/* Just use classes for CSS! Look how similar questionBox and answer are, 
+I'd get the duplicate styles and extract them into a class! */
 #questionBox {
     height: 150px;
     width: 300px;
